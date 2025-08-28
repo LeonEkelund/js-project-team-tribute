@@ -1,9 +1,12 @@
 body {
+  
 font-family: Inconsolata;
 font-weight: 500;
   margin: 20px;
   background-color: rgb(221, 214, 214);
 }
+
+
 
 h1 {
   text-align: center;
@@ -20,17 +23,17 @@ h1 {
   /* Centrerar allt vertikalt */
   gap: 40px;
   /* Avstånd mellan vänster och mitten */
-  border: 1px solid #ddd;
   padding: 20px;
   max-width: 900px;
-  margin: 0 auto 40px;
+  margin: 0 auto 40px;  /* Centrerar sektionen på sidan */
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
   border: 3px solid rgb(100, 100, 100);
  border-radius: 20px;
-  /* Centrerar sektionen på sidan */
+ 
 }
 
+  /* Hover effect på våra profilkort */
 .profile:hover {
   background-color: rgb(241, 221, 230);
 }
@@ -44,27 +47,16 @@ h1 {
   /* Centrerar text + bild horisontellt */
 }
 
-.left h2 {
-  margin-bottom: 10px;
-}
 
 /* Bildstil */
 .left img {
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  object-fit: cover;
-  /* Ser till att bilden inte blir utdragen */
   border: 3px solid rgb(100, 100, 100);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   margin-bottom: 30px;
 }
 
-/* Mittenkolumnen */
-.middle {
-  flex: 1;
-  /* Gör så textdelen tar upp resten av utrymmet */
-  text-align: center;
-  /* Centrerar paragrafen */
-}
+
 
